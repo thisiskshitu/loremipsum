@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: #1c2e4a;
+}
+
+.mainHeading, .subHeading
+{
+  text-align: center;
+  color: #fff;
+}
+
+.mainHeading
+{
+  font-family: Arial;
+  font-weight: 1000;
+  font-size: 60px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.subHeading
+{
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.inputs
+{
+  text-align: center;
+}
+
+.usernameInput, .passwordInput
+{
+  padding: 15px 65px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid #1c2e4a;
+  border-radius: 50px;
+  outline: none;
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder
+{
+  font-size: 17px;
+}
+
+.logInBtn
+{
+  border: 1px solid #1c2e4a;
+  padding: 12px 50px;
+  background-color: #fe5000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 1000;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.signUpBtn
+{
+  border: 1px solid #1c2e4a;
+  padding: 12px 80px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 1000;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.forgottenPassword
+{
+  color: powderblue;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.forgottenPassword:visited
+{
+  color: powderblue;
+}
+
+.forgottenPassword:hover
+{
+  transition: 0s;
+  color: lightcoral;
+}
+
+.logInBtn:visited
+{
+  color: #fff;
+}
+
+.signUpBtn:visited
+{
+  color: #000;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .mainHeading
+  {
+    margin-top: 20px;
+  }
+}
